@@ -1,4 +1,4 @@
-define('name', ['underscore', 'name/planet'], function(_, planet) {
+define('name', ['lodash', 'name/planet'], function(_, planet) {
 // - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
 // name_generator.js
 // written and released to the public domain by drow <drow@bin.sh>

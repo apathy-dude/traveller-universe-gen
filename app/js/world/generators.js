@@ -1,5 +1,5 @@
 define('world/generators',
-    ['underscore', 'util/dice', 'util/find', 'world/options'],
+    ['lodash', 'util/dice', 'util/find', 'world/options'],
     function(_, dice, find, options) {
     var d = dice.d;
     var dd = dice.dd;

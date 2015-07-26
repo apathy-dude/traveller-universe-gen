@@ -1,4 +1,4 @@
-define('world/options', ['underscore','util/dice',], function(_, dice) {
+define('world/options', ['lodash','util/dice',], function(_, dice) {
     var d = dice.d;
     var dd = dice.dd;
 

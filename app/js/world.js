@@ -1,5 +1,5 @@
 define('world',
-    ['underscore', 'util/dice', 'util/find', 'world/options', 'world/modifiers', 'world/tables', 'world/generators', 'name'],
+    ['lodash', 'util/dice', 'util/find', 'world/options', 'world/modifiers', 'world/tables', 'world/generators', 'name'],
     function(_, dice, find, options, modifiers, tables, generators, name) {
     var d = dice.d;
     var dd = dice.dd;

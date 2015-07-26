@@ -1,4 +1,4 @@
-define('render/detail', ['underscore', 'interact', 'world'], function(_, interact, World) {
+define('render/detail', ['lodash', 'interact', 'world'], function(_, interact, World) {
     var body = document.getElementById('main');
 
     return function(gridOpts) {

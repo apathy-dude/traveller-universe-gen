@@ -1,0 +1,22 @@
+{
+  "name": "traveller-universe-gen",
+  "version": "0.0.1",
+  "homepage": "https://github.com/apathy-dude/traveller-universe-gen",
+  "main": "main.js",
+  "authors": [
+    "Thomas Brown"
+  ],
+  "license": "Unliscence",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "interact": "~1.2.4",
+    "lodash": "~3.10.0",
+    "requirejs": "~2.1.19"
+  }
+}

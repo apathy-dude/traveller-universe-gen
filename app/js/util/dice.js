@@ -1,4 +1,4 @@
-define('util/dice', ['underscore'], function(_) {
+define('util/dice', ['lodash'], function(_) {
     function roll(size) {
         return _.random(1, size);
     }

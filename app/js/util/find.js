@@ -1,4 +1,4 @@
-define('util/find', ['underscore'], function(_) {
+define('util/find', ['lodash'], function(_) {
    return function find(roll) {
         return function rollMatch(tab) {
             if(tab.MinValue !== undefined && roll < tab.MinValue)

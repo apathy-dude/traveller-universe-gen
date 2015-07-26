@@ -1,4 +1,4 @@
-require(['underscore', 'interact', 'world', 'name/planet', 'render/grid', 'render/tile', 'render/detail'],
+require(['lodash', 'interact', 'world', 'name/planet', 'render/grid', 'render/tile', 'render/detail'],
     function(_, interact, World, planet, grid, planets, detail) {
         var body = document.getElementById('main');
 
