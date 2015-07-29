@@ -20722,7 +20722,8 @@ define('world',
                                 fetchSimpleValue(val);
                             else if(_.contains(reqs.Complex, val))
                                 fetchComplexValue(val);
-                        });
+                        })
+                        .value();
             }
 
             function fetchSimpleValue(field) {

@@ -17,6 +17,7 @@
   "dependencies": {
     "interact": "~1.2.4",
     "lodash": "~3.10.0",
-    "requirejs": "~2.1.19"
+    "requirejs": "~2.1.19",
+    "underscore": "~1.8.3"
   }
 }
