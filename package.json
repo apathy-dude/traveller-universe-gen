@@ -16,10 +16,11 @@
     "url": "https://github.com/apathy-dude/traveller-universe-gen/issues"
   },
   "devDependencies": {
+    "bower": "^1.4.1",
     "grunt": "*",
     "grunt-contrib-clean": "*",
     "grunt-contrib-copy": "*",
     "grunt-contrib-requirejs": "*",
-    "bower": "^1.4.1"
+    "grunt-contrib-watch": "^0.6.1"
   }
 }

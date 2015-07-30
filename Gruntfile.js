@@ -2,9 +2,27 @@ module.exports = function(grunt) {
   grunt.loadNpmTasks('grunt-contrib-copy');
   grunt.loadNpmTasks('grunt-contrib-clean');
   grunt.loadNpmTasks('grunt-contrib-requirejs');
+  grunt.loadNpmTasks('grunt-contrib-watch');
 
   grunt.initConfig({
     pkg: grunt.file.readJSON('package.json'),
+
+    watch: {
+        scripts: {
+            files: ['app/js/**/*.js'],
+            tasks: ['default'],
+            options: {
+                livereload: true
+            }
+        },
+        content: {
+            files: ['app/index.js', 'app/css/**.*.css'],
+            tasks: ['copy:dev'],
+            options: {
+                livereload: true
+            }
+        }
+    },
 
     clean: {
       build: ['build/'],
